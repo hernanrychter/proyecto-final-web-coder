@@ -78,7 +78,7 @@ nav a {
 
 /* SECTION1 */
 .section1 {
-    background-image: url(Multimedia/fondo.png);
+    background-image: url(/Multimedia/fondo.png);
     width: 100%;
     background-size: cover;
     height: auto;
@@ -154,14 +154,22 @@ h2 {
 
 /* Edicion Carrousel */
 .carrusel{
-    width: 40%;
+    display: flex;
+    justify-content: center;
+    column-gap: 40%;
+    width: 30%;
     height: auto;
-    list-style-type: none;
 }
+.carrusel img{
+    border-radius: 5%;
+}
+
 .carrusel li,.carrusel h5{
     list-style-type: none;
     color: white;
+    font-weight: 600;
 }
+
 
 /* .section2 {
     display: flex;
@@ -473,9 +481,21 @@ header{
 }
 
 .carrusel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 70%;
     height: auto;
- 
+}
+.carrusel img{
+    border-radius: 5%;
+    margin-bottom: 10%;
+}
+
+.carrusel li,.carrusel h5{
+    list-style-type: none;
+    color: white;
+    font-weight: 600;
 }
 .grid-container {
         display: flex;
