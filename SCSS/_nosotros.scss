@@ -1,0 +1,72 @@
+/* INICIO HTML NOSOTROS */
+.container-nosotros {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 50% 50%;
+    font-weight: 600;
+    width: 90%;
+    padding: 2%;
+    background: linear-gradient(to right, rgb(160, 31, 121), white);
+    h2 {
+        text-align: left;
+        font-size: 70px;
+        color: white;
+        padding-left: 1%;
+        
+    }
+    img {
+        width: 100%;
+        height: auto;
+        opacity: 90%;
+        border: solid 1px;
+        margin-top: 8% ;
+        margin-left: 8%;
+    }
+}
+
+.historia {
+    padding: 4%;
+    border-right: solid black thin;
+}
+
+.contacto-nosotros {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2%;
+    font-weight: 500;
+}
+
+.button-contacto {
+    background-color: rgb(160, 31, 121);
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: solid 1px;
+    margin: 1%;
+    opacity: 90%;
+
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+    padding: 2%;
+    img {
+        width: 50%;
+        height: auto;
+        opacity: 80%;
+        border-radius: 50%;
+    
+    }
+}
+
+.negrita {
+    font-weight: 700;
+}
+
+.parrafo {
+    padding: 1%;
+}
+/* FIN HTML NOSOTROS */

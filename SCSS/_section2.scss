@@ -1,0 +1,28 @@
+/* INICIO SECTION2 DE TODOS LOS HTML */
+h2 {
+    text-align: center;
+    padding: 3%;
+}
+
+/* EDICION CARROUSEL DEL INDEX */
+.carrusel{
+    display: flex;
+    justify-content: center;
+    column-gap: 40%;
+    width: 30%;
+    height: auto;
+    img{
+        border-radius: 5%;
+    }
+    li{
+        list-style-type: none;
+        color: white;
+        font-weight: 600;
+    }
+    h5{
+        list-style-type: none;
+        color: white;
+        font-weight: 600; 
+    }
+}
+/* FIN SECTION2 */

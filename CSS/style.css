@@ -1,688 +1,635 @@
-/* BORRO ESTILOS PRE DEFINIDOS */
+/* REINICIO ESTILOS POR DEFAULT */
 * {
-    margin: 0;
-    padding: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 a {
-    text-decoration: none;
-    color:black;
+  text-decoration: none;
+  color: black;
 }
 
+/* INICIO WHATSAPP STICKY */
+.sticked {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  z-index: 3;
+}
+.sticked img {
+  width: 60px;
+  height: auto;
+  opacity: 90%;
+}
 
-/* HEADER */
+/* FIN WHATSAPP STICKY */
+/* INCIO HEADER */
 header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
-    background-color: rgb(46, 46, 46);
-    color: white;
-    box-shadow:0 0 10px 0 gray;
-    margin-bottom: 2%;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  background-color: #2e2e2e;
+  color: white;
+  box-shadow: 0 0 10px 0 gray;
+  margin-bottom: 2%;
 }
-
 header a {
-    color: white;
+  color: white;
 }
-
-header a:hover{
-    color: white;
-    opacity:90%;
+header a:hover {
+  color: white;
+  opacity: 90%;
 }
-
-
 
 h1 {
-    font-size: 1.3rem;
-    opacity: 90%;
+  font-size: 1.3rem;
+  opacity: 90%;
 }
 
 /* FIN HEADER */
-
-/* Whatsapp Sticky */
-.sticked{
-    position: fixed;
-    right:30px;
-    bottom: 30px;
-    z-index: 3;
-    
-}
-
-.sticked img{
-    width: 60px;
-    height: auto;
-    opacity: 90%;
-}
-
-/* NAV */
-
-
-/* nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 3% 10%;
-    font-weight: 600;
-    opacity: 80%;
-}
-
-nav a {
-    color: black;
-} */
-
-/* FIN NAV */
-
-/* SECTION1 */
+/* INICIO SECTION1 */
 .section1 {
-    background-image: url(/Multimedia/fondo.png);
-    width: 100%;
-    background-size: cover;
-    height: auto;
-    padding-bottom: 20%;
-    opacity: 98%;
+  background-image: url(/Multimedia/fondo.png);
+  width: 100%;
+  background-size: cover;
+  height: auto;
+  padding-bottom: 20%;
+  opacity: 98%;
 }
 
 .elementos-section1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
 }
 
 .buscador {
-    display: grid;
-    width: 70%;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 30px 30px;
-    margin-top: 5%;
-    margin-bottom: 5%;
+  display: grid;
+  width: 70%;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 30px 30px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
-
 .buscador .celda-titulo {
-    border: solid 0.3px;
-    background-color: grey;
-    text-align: center;
-    margin: 1%;
-    font-weight: 600;
-    opacity: 90%;
+  border: solid 0.3px;
+  background-color: grey;
+  text-align: center;
+  margin: 1%;
+  font-weight: 600;
+  opacity: 90%;
 }
-
 .buscador .desplegable {
-    border: solid 0.3px;
-    background-color: white;
-    text-align: center;
-    opacity: 90%;
-    margin: 1%;
+  border: solid 0.3px;
+  background-color: white;
+  text-align: center;
+  opacity: 90%;
+  margin: 1%;
 }
 
 .boton-buscar {
-    text-align: center;
-    background-color: rgb(160, 31, 121);
-    color: white;
-    height: 30px;
-    border: solid 1px;
-    margin-top: 10%;
-    opacity: 90%;
-    margin-left: 1%;
-    margin-right: 1%;
-
+  text-align: center;
+  background-color: #a01f79;
+  color: white;
+  height: 30px;
+  border: solid 1px;
+  margin-top: 10%;
+  opacity: 90%;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 
 .boton-limpiar {
-    text-align: center;
-    background-color: gray;
-    color: white;
-    height: 30px;
-    border: solid 1px;
-    margin-top: 10%;
-    opacity: 90%;
-    margin-left: 1%;
-    margin-right: 1%;
+  text-align: center;
+  background-color: gray;
+  color: white;
+  height: 30px;
+  border: solid 1px;
+  margin-top: 10%;
+  opacity: 90%;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 
 /* FIN SECTION1 */
-
-/* SECTION2 */
+/* INICIO SECTION2 DE TODOS LOS HTML */
 h2 {
-    text-align: center;
-    padding: 3%;
+  text-align: center;
+  padding: 3%;
 }
 
-/* Edicion Carrousel */
-.carrusel{
-    display: flex;
-    justify-content: center;
-    column-gap: 40%;
-    width: 30%;
-    height: auto;
+/* EDICION CARROUSEL DEL INDEX */
+.carrusel {
+  display: flex;
+  justify-content: center;
+  column-gap: 40%;
+  width: 30%;
+  height: auto;
 }
-.carrusel img{
-    border-radius: 5%;
+.carrusel img {
+  border-radius: 5%;
 }
-
-.carrusel li,.carrusel h5{
-    list-style-type: none;
-    color: white;
-    font-weight: 600;
+.carrusel li {
+  list-style-type: none;
+  color: white;
+  font-weight: 600;
+}
+.carrusel h5 {
+  list-style-type: none;
+  color: white;
+  font-weight: 600;
 }
 
 /* FIN SECTION2 */
-
-
 /* INICIO FOOTER */
-
 /* Footer container */
 .grid-container {
-    display: grid;
-    grid-template-columns: 20% 46% 34%;
-    grid-template-rows: 270px;
-    /* background-color: #9B9797; */
-    align-items: center;
-    justify-items: center;
-    padding: 3% 6% 4% 0%;
-    background: linear-gradient(to top, black, #777676, white);
+  display: grid;
+  grid-template-columns: 20% 46% 34%;
+  grid-template-rows: 270px;
+  align-items: center;
+  justify-items: center;
+  padding: 3% 6% 4% 0%;
+  background: linear-gradient(to top, black, #777676, white);
 }
 
 /* Footer Nav */
 .grid-item1 li {
-    padding: 8% 15%;
-    list-style: none;
-    justify-items: center;
-    font-size: larger;
-    color: black;
-    opacity: 0.7;
-    animation-name: efecto;
-    animation-duration: 2s;
+  padding: 8% 15%;
+  list-style: none;
+  justify-items: center;
+  font-size: larger;
+  color: black;
+  opacity: 0.7;
+  animation-name: efecto;
+  animation-duration: 2s;
 }
-
-
-.grid-item1 a:hover{
-    color: white;
-    opacity: 1;
+.grid-item1 li a:hover {
+  color: white;
+  opacity: 1;
 }
-
-
-.grid-item2 li:hover {
-    color: black;
-    opacity: 1;
-}
-
-/* Logo y Puntos de contacto */
 
 .grid-item2 {
-    padding: 2%;
-    color: white;
+  padding: 2%;
+  color: white;
 }
-
 .grid-item2 li {
-    padding: 0.5% 10% 0% 15%;
-    text-align: left;
-    list-style: none;
-    border-left: solid black thin;
-    opacity: 0.7;
-    animation-name: efecto;
-    animation-duration: 2s;
+  padding: 0.5% 10% 0% 15%;
+  text-align: left;
+  list-style: none;
+  border-left: solid black thin;
+  opacity: 0.7;
+  animation-name: efecto;
+  animation-duration: 2s;
 }
-
+.grid-item2 li:hover {
+  color: black;
+  opacity: 1;
+}
 .grid-item2 img {
-    height: 150px;
-    width: 350px;
-    padding: 0.5% 10% 0% 0%;
+  height: 150px;
+  width: 350px;
+  padding: 0.5% 10% 0% 0%;
+}
+.grid-item2 .icono {
+  width: 30px;
+  height: auto;
+  padding-right: 3%;
 }
 
 .grid-item3 .mapa {
-    height: 250px;
-    width: 450px;
-    border-radius: 4%;
-    justify-items: center;
-    animation-name: efecto;
-    animation-duration: 2s;
+  height: 250px;
+  width: 450px;
+  border-radius: 4%;
+  justify-items: center;
+  animation-name: efecto;
+  animation-duration: 2s;
 }
-
-.grid-item2 .icono {
-    width: 30px;
-    height: auto;
-    padding-right: 3%;
-}
-
-@keyframes efecto{
-    0%{
-        transform: translatex(40%);
-    }
-    
-
-}
-
 
 /* Linea Copyright */
 .copyright {
-    text-align: center;
-    background-color: black;
-    color: white;
-    padding: 0.5%;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 0.5%;
 }
 
 /* FIN FOOTER */
-
-
 /* INICIO HTML NOSOTROS */
 .container-nosotros {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 50% 50%;
-    font-weight: 600;
-    width: 90%;
-    padding: 2%;
-    background: linear-gradient(to right, rgb(160, 31, 121), white);
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 50% 50%;
+  font-weight: 600;
+  width: 90%;
+  padding: 2%;
+  background: linear-gradient(to right, #a01f79, white);
 }
-
 .container-nosotros h2 {
-    text-align: left;
-    font-size: 70px;
-    color: white;
-    padding-left: 1%;
-    
+  text-align: left;
+  font-size: 70px;
+  color: white;
+  padding-left: 1%;
 }
-
 .container-nosotros img {
-    width: 100%;
-    height: auto;
-    opacity: 90%;
-    border: solid 1px;
-    margin-top: 8% ;
-    margin-left: 8%;
+  width: 100%;
+  height: auto;
+  opacity: 90%;
+  border: solid 1px;
+  margin-top: 8%;
+  margin-left: 8%;
 }
 
 .historia {
-    padding: 4%;
-    border-right: solid black thin;
+  padding: 4%;
+  border-right: solid black thin;
 }
 
 .contacto-nosotros {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 2%;
+  font-weight: 500;
+}
+
+.button-contacto {
+  background-color: #a01f79;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border: solid 1px;
+  margin: 1%;
+  opacity: 90%;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3%;
+  padding: 2%;
+}
+.logos img {
+  width: 50%;
+  height: auto;
+  opacity: 80%;
+  border-radius: 50%;
+}
+
+.negrita {
+  font-weight: 700;
+}
+
+.parrafo {
+  padding: 1%;
+}
+
+/* FIN HTML NOSOTROS */
+/* INICIO HTML VENTAS Y ALQUILER  */
+.section1-ventas {
+  background: linear-gradient(to right, #a01f79, white);
+  height: auto;
+  padding: 3%;
+}
+
+.elementos-section1 h2 {
+  font-size: 50px;
+  color: black;
+  padding: 0% 10%;
+}
+
+.palabra-destacada {
+  text-decoration: underline 10%;
+  color: white;
+  opacity: 90%;
+}
+
+.prop-ventas {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+  padding: 5%;
+  background: linear-gradient(to bottom, #504e4f, white);
+}
+
+.detalle {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  margin-top: 0%;
+  padding: 5%;
+  background: linear-gradient(to top, #a01f79, white);
+}
+
+.prop img {
+  border-radius: 10%;
+}
+
+.foto-detalle img {
+  width: 90%;
+  height: auto;
+  padding: 3%;
+  border-radius: 10%;
+}
+
+/* FIN HTML VENTAS Y ALQUILER */
+/* INICIO HTML SERVICIOS */
+.section1-ventas h2 {
+  font-size: 50px;
+  color: black;
+  padding: 0% 10%;
+}
+
+.servicios {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1%;
+}
+
+.servicio {
+  background: linear-gradient(to bottom, #504e4f, white);
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  border-radius: 10%;
+  padding: 3%;
+  font-style: italic;
+}
+.servicio h3 {
+  color: white;
+}
+
+/* FIN HTML SERVICIOS */
+/* INICIO CONTACTO */
+.contacto {
+  display: flex;
+  justify-content: center;
+  margin: 3% 10% 3%;
+}
+.contacto .form-label {
+  font-weight: 600;
+}
+.contacto .btn {
+  background-color: black;
+  border-color: black;
+}
+.contacto .btn:hover {
+  background-color: white;
+  color: black;
+}
+/* FIN CONTACTO */
+
+/* INICIO MEDIA QUERY */
+@media only screen and (max-width: 1000px) and (min-width: 300px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .section1 {
+    background: white;
+  }
+  .section1 .elementos-section1 .logo img {
+    width: 100%;
+    height: auto;
+    padding: 10%;
+  }
+
+  .carrusel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    height: auto;
+  }
+  .carrusel img {
+    border-radius: 5%;
+    margin-bottom: 10%;
+  }
+  .carrusel li, .carrusel h5 {
+    list-style-type: none;
+    color: white;
+    font-weight: 600;
+  }
+
+  .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .grid-item1 li {
+    padding: 1%;
+  }
+
+  .grid-item2 li {
+    border-left: none;
+  }
+
+  .grid-container img {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  .grid-container .grid-item3 iframe {
+    width: 100%;
+    height: auto;
+    padding: 1% 1% 1% 1%;
+  }
+
+  .container-nosotros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-template-columns: 50% 50%;
+    font-weight: 600;
+    width: 100%;
+    padding: 1%;
+    background: linear-gradient(to right, #a01f79, white);
+  }
+  .container-nosotros h2 {
+    text-align: left;
+    font-size: 60px;
+    color: white;
+    padding-left: 1%;
+  }
+  .container-nosotros img {
+    width: 90%;
+    height: auto;
+    opacity: 90%;
+    border: solid 1px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }
+
+  .historia {
+    padding: none;
+    border-right: none;
+  }
+
+  .contacto-nosotros {
     display: flex;
     flex-direction: column;
     text-align: center;
     padding: 2%;
-    font-weight: 500;
-}
+    font-weight: 300;
+  }
 
-.button-contacto {
-    background-color: rgb(160, 31, 121);
+  .button-contacto {
+    background-color: #a01f79;
     color: white;
     width: 100px;
     height: 40px;
     border: solid 1px;
     margin: 1%;
     opacity: 90%;
+  }
 
-}
-
-.logos {
-    display: flex;
-    flex-direction: row;
-    margin-top: 3%;
-    padding: 2%;
-
-}
-
-.logos img {
-    width: 50%;
+  .logos img {
+    width: 80%;
     height: auto;
     opacity: 80%;
     border-radius: 50%;
+  }
 
-}
-
-.negrita {
+  .negrita {
     font-weight: 700;
-}
+  }
 
-.parrafo {
-    padding: 1%;
-}
+  .parrafo {
+    padding: 3%;
+  }
 
-/* FIN HTML NOSOTROS */
-
-/* INICIO HTML VENTAS Y ALQUILER  */
-.section1-ventas{
-    background: linear-gradient(to right, rgb(160, 31, 121), white);
+  .section1-ventas {
+    background: linear-gradient(to right, #a01f79, white);
     height: auto;
     padding: 3%;
-}
+  }
 
-.elementos-section1 h2{
+  .elementos-section1 h2 {
     font-size: 50px;
     color: black;
     padding: 0% 10%;
-}
+  }
 
-.palabra-destacada{
+  .palabra-destacada {
     text-decoration: underline 10%;
     color: white;
     opacity: 90%;
-}
+  }
 
-.prop-ventas {
+  .prop-ventas {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 100%;
-    padding:5%;
-    background: linear-gradient(to bottom, rgb(80, 78, 79), white);  
-}
+    padding: 5%;
+    background: linear-gradient(to bottom, #504e4f, white);
+  }
 
-.detalle{
+  .detalle {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
     margin-top: 0%;
-    padding:5%;
-    background: linear-gradient(to top, rgb(160, 31, 121), white);   
-}
+    padding: 5%;
+    background: linear-gradient(to top, #a01f79, white);
+  }
 
-.prop img{
+  .prop img {
     border-radius: 10%;
-}
+  }
 
-.foto-detalle img{
-   width: 90%;
-   height: auto;
-   padding: 3%;
-   border-radius:10% ;
-}
-
-
-/* FIN HTML VENTAS Y ALQUILER */
-
-
-/* INICIO HTML SERVICIOS */
-.section1-ventas h2{
-    font-size: 50px;
-    color: black;
-    padding: 0% 10%;
-}
-
-.servicios {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 1%;
-}
-
-.servicio {
-    background: linear-gradient(to bottom, rgb(80, 78, 79), white);  
-    width: 400px;
-    height: 400px;
-    text-align: center;
-    border-radius: 10%;
-    padding: 3%;
-    font-style: italic;
-}
-.servicio h3{
-    color: white;
-}
-
-/* FIN HTML SERVICIOS */
-
-
-
-
-/* MediaQ */
-@media only screen and (max-width: 1000px) and (min-width:300px) { 
-header{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-.section1 {
-    background: white;
-}
-.section1 .elementos-section1 .logo img{
-  width: 100%;
-  height: auto;
-  padding: 10%;
-
-}
-
-.carrusel{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 70%;
-    height: auto;
-}
-.carrusel img{
-    border-radius: 5%;
-    margin-bottom: 10%;
-}
-
-.carrusel li,.carrusel h5{
-    list-style-type: none;
-    color: white;
-    font-weight: 600;
-}
-.grid-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-
-    }
-
-    .grid-item1 li {
-        padding: 1%;
-    }
-
-    .grid-item2 li {
-        border-left: none;
-    }
-
-    .grid-container img{
-        width: 100%;
-        height: auto;
-        text-align: center;
-    }
-    .grid-container .grid-item3 iframe{
-       width: 100%;
-       height: auto;
-       padding: 1% 1% 1% 1%;
-    } 
-
-    .container-nosotros {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        grid-template-columns: 50% 50%;
-        font-weight: 600;
-        width: 100%;
-        padding: 1%;
-        background: linear-gradient(to right, rgb(160, 31, 121), white);
-    }
-    
-    .container-nosotros h2 {
-        text-align: left;
-        font-size: 60px;
-        color: white;
-        padding-left: 1%;
-        
-    }
-    
-    .container-nosotros img {
-        width: 90%;
-        height: auto;
-        opacity: 90%;
-        border: solid 1px;
-        margin-left: 5%;
-        margin-bottom: 5%;
-    }
-    
-    .historia {
-        padding: none;
-        border-right: none;
-    }
-    
-    .contacto-nosotros {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding: 2%;
-        font-weight: 300;
-    }
-    
-    .button-contacto {
-        background-color: rgb(160, 31, 121);
-        color: white;
-        width: 100px;
-        height: 40px;
-        border: solid 1px;
-        margin: 1%;
-        opacity: 90%;
-    
-    }
-    
-    
-    .logos img {
-        width: 80%;
-        height: auto;
-        opacity: 80%;
-        border-radius: 50%;
-    
-    }
-    
-    .negrita {
-        font-weight: 700;
-    }
-    
-    .parrafo {
-        padding: 3%;
-    }
-
-    .section1-ventas{
-    background: linear-gradient(to right, rgb(160, 31, 121), white);
+  .foto-detalle img {
+    width: 90%;
     height: auto;
     padding: 3%;
-}
-
-.elementos-section1 h2{
-    font-size: 50px;
-    color: black;
-    padding: 0% 10%;
-}
-
-.palabra-destacada{
-    text-decoration: underline 10%;
-    color: white;
-    opacity: 90%;
-}
-
-.prop-ventas {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 100%;
-    padding:5%;
-    background: linear-gradient(to bottom, rgb(80, 78, 79), white);  
-}
-
-.detalle{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
-    margin-top: 0%;
-    padding:5%;
-    background: linear-gradient(to top, rgb(160, 31, 121), white);   
-}
-
-.prop img{
     border-radius: 10%;
-}
+  }
 
-.foto-detalle img{
-   width: 90%;
-   height: auto;
-   padding: 3%;
-   border-radius:10% ;
-}
-/* VENTAS Y ALQUILERES */
-
-.section1-ventas{
-    background: linear-gradient(to right, rgb(160, 31, 121), white);
+  /* VENTAS Y ALQUILERES */
+  .section1-ventas {
+    background: linear-gradient(to right, #a01f79, white);
     width: 100%;
     height: auto;
     padding: 1%;
-}
+  }
 
-.elementos-section1 h2{
+  .elementos-section1 h2 {
     font-size: 20px;
     color: black;
     padding: 0% 10%;
-}
+  }
 
-.buscador{
+  .buscador {
     display: grid;
     width: 100%;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 50% 50%;
     margin-top: 1%;
     margin-bottom: 10%;
-   
-}
+  }
 
-
-.palabra-destacada{
+  .palabra-destacada {
     text-decoration: underline 10%;
     color: white;
     opacity: 90%;
-}
-.section2-ventas{
+  }
+
+  .section2-ventas {
     display: flex;
     flex-direction: column;
     width: 100%;
-}
-.prop-ventas {
+  }
+
+  .prop-ventas {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding:1%;
-    background: linear-gradient(to bottom, rgb(80, 78, 79), white);  
-}
-.prop-ventas h3{
-    padding-top: 4%;
-}
+    padding: 1%;
+    background: linear-gradient(to bottom, #504e4f, white);
+  }
 
-.detalle{
+  .prop-ventas h3 {
+    padding-top: 4%;
+  }
+
+  .detalle {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
     margin-top: 0%;
-    padding:5%;
-    background: linear-gradient(to top, rgb(160, 31, 121), white);   
-}
+    padding: 5%;
+    background: linear-gradient(to top, #a01f79, white);
+  }
 
-.prop img{
+  .prop img {
     border-radius: 10%;
-    width:100%;
-}
+    width: 100%;
+  }
 
-.foto-detalle img{
-   width: 90%;
-   height: auto;
-   padding: 3%;
-   border-radius:10% ;
-}
- 
-/* Servicios */
+  .foto-detalle img {
+    width: 90%;
+    height: auto;
+    padding: 3%;
+    border-radius: 10%;
+  }
 
-.servicios {
+  /* SERVICIOS */
+  .servicios {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 1%;
-}
+  }
 
-.servicio {
-    background: linear-gradient(to bottom, rgb(80, 78, 79), white);  
+  .servicio {
+    background: linear-gradient(to bottom, #504e4f, white);
     width: 90%;
     height: 50%;
     text-align: center;
@@ -690,113 +637,19 @@ header{
     padding: 3%;
     margin: 3%;
     font-style: italic;
-    
-}
-.servicio h3{
+  }
+  .servicio h3 {
     color: white;
-}
+  }
 
-/* Whatsapp Sticky */
-.sticked img{
+  /* Whatsapp Sticky */
+  .sticked img {
     width: 50px;
     height: auto;
-    margin-left: 3%;    
+    margin-left: 3%;
     opacity: 80%;
+  }
 }
-}
+/*FIN MEDIA QUERY*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ANOTACIONES */
-/* FORMATO DE LA LISTA DESPLEGABLE */
-/* ul ul {
-    position: absolute;
-    /*display:none sirve para que no muestre la lista de una  */
-/* display: none;
-    width: 80%;
-    background-color: rgb(136, 133, 133);
-} */
-
-/* FORMATO DE CADA LI DEL DESPLEGABLE */
-/* ul ul li {
-    display: block;
-    padding: 5%;
-} */
-
-/* HOVER: AL PASAR EL MOUSE APARECE LA LISTA */
-/* ul li:hover ul {
-    display: block;
-} */
-
-
+/*# sourceMappingURL=style.css.map */

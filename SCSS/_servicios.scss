@@ -1,0 +1,27 @@
+/* INICIO HTML SERVICIOS */
+.section1-ventas h2{
+    font-size: 50px;
+    color: black;
+    padding: 0% 10%;
+}
+
+.servicios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1%;
+}
+
+.servicio {
+    background: linear-gradient(to bottom, rgb(80, 78, 79), white);  
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    border-radius: 10%;
+    padding: 3%;
+    font-style: italic;
+    h3{
+        color: white;
+    }
+}
+/* FIN HTML SERVICIOS */

@@ -1,0 +1,66 @@
+/* INICIO SECTION1 */
+.section1 {
+    background-image: url(/Multimedia/fondo.png);
+    width: 100%;
+    background-size: cover;
+    height: auto;
+    padding-bottom: 20%;
+    opacity: 98%;
+}
+
+.elementos-section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.buscador {
+    display: grid;
+    width: 70%;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 30px 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    .celda-titulo {
+        border: solid 0.3px;
+        background-color: grey;
+        text-align: center;
+        margin: 1%;
+        font-weight: 600;
+        opacity: 90%;
+    }
+    .desplegable {
+        border: solid 0.3px;
+        background-color: white;
+        text-align: center;
+        opacity: 90%;
+        margin: 1%;
+    }
+}
+
+.boton-buscar {
+    text-align: center;
+    background-color: rgb(160, 31, 121);
+    color: white;
+    height: 30px;
+    border: solid 1px;
+    margin-top: 10%;
+    opacity: 90%;
+    margin-left: 1%;
+    margin-right: 1%;
+
+}
+
+.boton-limpiar {
+    text-align: center;
+    background-color: gray;
+    color: white;
+    height: 30px;
+    border: solid 1px;
+    margin-top: 10%;
+    opacity: 90%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+/* FIN SECTION1 */
