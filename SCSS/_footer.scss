@@ -18,8 +18,8 @@
     font-size: larger;
     color: black;
     opacity: 0.7;
-    animation-name: efecto;
-    animation-duration: 2s;
+    // animation-name: efecto;
+    // animation-duration: 2s;
 
     a:hover {
         color: white;
@@ -31,20 +31,25 @@
 
 .grid-item2 {
     padding: 2%;
-    color: white;
+    color: black;
 
     li {
         padding: 0.5% 10% 0% 15%;
+        color:black;
         text-align: left;
         list-style: none;
         border-left: solid black thin;
         opacity: 0.7;
-        animation-name: efecto;
-        animation-duration: 2s;
-        &:hover{
-            color: black;
-            opacity: 1;
+        // animation-name: efecto;
+        // animation-duration: 2s;
+        a{
+            color: white;
+            &:hover{
+                color: black;
+                opacity: 1;
+            }
         }
+        
     }
     img {
         height: 150px;
