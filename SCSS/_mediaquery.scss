@@ -1,3 +1,5 @@
+@import "variables";
+
 /* INICIO MEDIA QUERY */
 @media only screen and (max-width: 1000px) and (min-width:300px) { 
     header{
@@ -68,7 +70,7 @@
             font-weight: 600;
             width: 100%;
             padding: 1%;
-            background: linear-gradient(to right, rgb(160, 31, 121), white);
+            background: linear-gradient(to right,$color-magenta-rychter, white);
             h2 {
                 text-align: left;
                 font-size: 60px;
@@ -100,7 +102,7 @@
         }
         
         .button-contacto {
-            background-color: rgb(160, 31, 121);
+            background-color: $color-magenta-rychter;
             color: white;
             width: 100px;
             height: 40px;
@@ -127,7 +129,7 @@
         }
     
         .section1-ventas{
-        background: linear-gradient(to right, rgb(160, 31, 121), white);
+        background: linear-gradient(to right,$color-magenta-rychter, white);
         height: auto;
         padding: 3%;
     }
@@ -158,7 +160,7 @@
         grid-template-rows: 50% 50%;
         margin-top: 0%;
         padding:5%;
-        background: linear-gradient(to top, rgb(160, 31, 121), white);   
+        background: linear-gradient(to top,$color-magenta-rychter, white);   
     }
     
     .prop img{
@@ -175,7 +177,7 @@
     /* VENTAS Y ALQUILERES */
     
     .section1-ventas{
-        background: linear-gradient(to right, rgb(160, 31, 121), white);
+        background: linear-gradient(to right,$color-magenta-rychter, white);
         width: 100%;
         height: auto;
         padding: 1%;
@@ -224,7 +226,7 @@
         grid-template-rows: 50% 50%;
         margin-top: 0%;
         padding:5%;
-        background: linear-gradient(to top, rgb(160, 31, 121), white);   
+        background: linear-gradient(to top,$color-magenta-rychter, white);   
     }
     
     .prop img{

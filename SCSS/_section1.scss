@@ -1,3 +1,4 @@
+@import "variables";
 /* INICIO SECTION1 */
 .section1 {
     background-image: url(/Multimedia/fondo.png);
@@ -41,7 +42,7 @@
 
 .boton-buscar {
     text-align: center;
-    background-color: rgb(160, 31, 121);
+    background-color: $color-magenta-rychter;
     color: white;
     height: 30px;
     border: solid 1px;

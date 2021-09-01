@@ -1,6 +1,7 @@
+@import "variables";
 /* INICIO HTML VENTAS Y ALQUILER  */
 .section1-ventas{
-    background: linear-gradient(to right, rgb(160, 31, 121), white);
+    background: linear-gradient(to right,$color-magenta-rychter, white);
     height: auto;
     padding: 3%;
 }
@@ -31,7 +32,7 @@
     grid-template-rows: 50% 50%;
     margin-top: 0%;
     padding:5%;
-    background: linear-gradient(to top, rgb(160, 31, 121), white);   
+    background: linear-gradient(to top,$color-magenta-rychter, white);   
 }
 
 .prop img{
