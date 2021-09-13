@@ -1,3 +1,5 @@
+@import 'variables';
+
 /* INICIO HTML SERVICIOS */
 .section1-ventas h2{
     font-size: 50px;
@@ -5,23 +7,85 @@
     padding: 0% 10%;
 }
 
-.servicios {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 1%;
+.container-servicios{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 100%;
+    justify-content: space-around;
+    width: 95%;
+    margin: 0 auto;
+    padding: 1%;
+    column-gap: 3%;
+    height: 600px;     
+   
+    .servicio-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border: solid thin black;
+        &:hover{
+            transform: translateY(-15px);
+            box-shadow: 1px 5px 5px black;
+            }
+    } 
+    .servicio-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border: solid thin black;
+        &:hover{
+            transform: translateY(-15px);
+            box-shadow: 1px 5px 5px black;
+            }
+    }
+    .servicio-3{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border: solid thin black;
+        &:hover{
+            transform: translateY(-15px);
+            box-shadow: 1px 5px 5px black;
+            }
+    }
+
 }
 
-.servicio {
-    background: linear-gradient(to bottom, rgb(80, 78, 79), white);  
-    width: 400px;
-    height: 400px;
-    text-align: center;
-    border-radius: 10%;
-    padding: 3%;
-    font-style: italic;
-    h3{
-        color: white;
-    }
+.fondo-titulo{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100%;  
+    text-align: center;  
 }
+
+
+
+.container-servicios p{
+    
+    padding: 5%;
+}
+ul,li{
+    list-style-type: none;
+    padding: 0% 1%;
+}
+.button-contacto {
+    background-color: $color-magenta-rychter;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: solid 1px;
+    margin: 1%;
+    opacity: 90%;
+
+}
+
+h3{
+    padding: 2%;
+   
+}
+
 /* FIN HTML SERVICIOS */
