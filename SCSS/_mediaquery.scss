@@ -243,27 +243,75 @@
      
     /* SERVICIOS */
     
-    .servicios {
+    .section1-ventas h2 {
+        font-size: 50px;
+        color: black;
+        padding: 0% 10%;
+      }
+      
+      .container-servicios {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-content: space-around;
+        width: 90%;
+        margin: 0 auto;
+        padding: 1%;
+        row-gap: 3%;
+        height: 1700px;
+      }
+      .container-servicios .servicio-1 {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        margin: 1%;
-    }
-    
-    .servicio {
-        background: linear-gradient(to bottom, rgb(80, 78, 79), white);  
-        width: 90%;
-        height: 50%;
+        justify-content: space-around;
+        align-items: center;
+        border: solid thin black;
+      }
+      .container-servicios .servicio-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border: solid thin black;
+      }
+      .container-servicios .servicio-3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border: solid thin black;
+      }
+      
+      .fondo-titulo {
+        background-color: black;
+        color: white;
+        height: 40px;
+        width: 100%;
         text-align: center;
-        border-radius: 10%;
-        padding: 3%;
-        margin: 3%;
-        font-style: italic;
-        h3{
-            color: white;
-        }
-    }
-
+      }
+      
+      .container-servicios p {
+        padding: 5%;
+      }
+      
+      ul, li {
+        list-style-type: none;
+        padding: 0% 1%;
+      }
+      
+      .button-contacto {
+        background-color: #a01f79;
+        color: white;
+        width: 100px;
+        height: 40px;
+        border: solid 1px;
+        margin: 1%;
+        opacity: 90%;
+      }
+      
+      h3 {
+        padding: 2%;
+      }
     /* Whatsapp Sticky */
     .sticked img{
         width: 50px;
@@ -271,5 +319,59 @@
         margin-left: 3%;    
         opacity: 80%;
     }
+    /*INICIO SECCION SERVICIO INDEX*/
+    .container-servicios-index {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 90%;
+        margin: 0 auto;
+        padding: 5%;
+        column-gap: 5%;
+        height: 500px;
+      }
+      
+      .container-servicios-index .servicio-1-index {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+      }
+      
+      .container-servicios-index .servicio-2-index {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+      }
+      
+      .container-servicios-index .servicio-3-index {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+      }
+      
+      .container-servicios-index .servicio-1-index img {
+        padding: 5%;
+      }
+      
+      .container-servicios-index .servicio-2-index img {
+        padding: 5%;
+      }
+      
+      .container-servicios-index .servicio-3-index img {
+        padding: 5%;
+      }
+      
+      .fondo-titulo-index {
+        background-color: black;
+        color: white;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+      }
+
+      /*FIN SECCION SERVICIO INDEX*/
     }
     /*FIN MEDIA QUERY*/
