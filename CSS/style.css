@@ -204,11 +204,11 @@ h2 {
   list-style: none;
   justify-items: center;
   font-size: larger;
+  font-weight: 600;
   color: black;
-  opacity: 0.7;
 }
 .grid-item1 li a:hover {
-  color: white;
+  color: black;
   opacity: 0.7;
 }
 
@@ -247,8 +247,9 @@ h2 {
 .grid-item3 .mapa {
   height: 250px;
   width: 450px;
-  border-radius: 4%;
+  border-radius: 1.3em;
   justify-items: center;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.534);
 }
 
 /* Linea Copyright */
@@ -893,41 +894,26 @@ li {
   grid-template-rows: 100%;
   width: 80%;
   margin: 0 auto;
-  padding: 5%;
+  padding: 1%;
   column-gap: 5%;
   height: 300px;
 }
 
-.container-servicios-index .servicio-1-index {
+.container-servicios-index .servicio-1-index, .servicio-2-index, .servicio-3-index {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.534);
+}
+.container-servicios-index .servicio-1-index:hover, .servicio-2-index:hover, .servicio-3-index:hover {
+  transform: translateY(-15px);
+}
+.container-servicios-index .servicio-1-index:hover h3, .servicio-2-index:hover h3, .servicio-3-index:hover h3 {
+  color: #a01f79;
 }
 
-.container-servicios-index .servicio-2-index {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.container-servicios-index .servicio-3-index {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.container-servicios-index .servicio-1-index img {
-  padding: 5%;
-}
-
-.container-servicios-index .servicio-2-index img {
-  padding: 5%;
-}
-
-.container-servicios-index .servicio-3-index img {
+.container-servicios-index .servicio-1-index img, .servicio-2-index img, .servicio-3-index img {
   padding: 5%;
 }
 
@@ -937,18 +923,6 @@ li {
   height: 100%;
   width: 100%;
   text-align: center;
-}
-
-.servicio-1-index:hover {
-  transform: translateY(-15px);
-}
-
-.servicio-2-index:hover {
-  transform: translateY(-15px);
-}
-
-.servicio-3-index:hover {
-  transform: translateY(-15px);
 }
 
 /*# sourceMappingURL=style.css.map */
