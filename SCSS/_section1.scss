@@ -1,4 +1,5 @@
 @import "variables";
+
 /* INICIO SECTION1 */
 .section1 {
     background-image: url(/Multimedia/fondo.png);
@@ -7,6 +8,10 @@
     height: auto;
     padding-bottom: 20%;
     opacity: 98%;
+    img{
+        width: 500px;
+        height: auto;
+    }
 }
 
 .elementos-section1 {

@@ -12,17 +12,22 @@ header {
     
     a {
         color: white;
+        opacity: 90%;
+        
 
         &:hover {
             color: white;
-            opacity: 90%;
-        }
+            opacity: 100%;
+       }
     }
 }
 
 h1 {
     font-size: 1.3rem;
     opacity: 90%;
+    &:hover{
+        opacity: 100%;
+    }
 }
 
 /* FIN HEADER */

@@ -4,30 +4,29 @@
     display: grid;
     justify-content: center;
     grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
     font-weight: 600;
     width: 90%;
     padding: 2%;
     background: linear-gradient(to right,$color-magenta-rychter, white);
     h2 {
         text-align: left;
-        font-size: 70px;
-        color: white;
+        font-size: 60px;
+        color: black;
         padding-left: 1%;
-        
     }
     img {
-        width: 100%;
+        width: 500px;
         height: auto;
-        opacity: 90%;
-        border: solid 1px;
-        margin-top: 8% ;
-        margin-left: 8%;
+        opacity: 100%;
+        margin-top: 10% ;
+        margin-left: 12%;
     }
 }
 
 .historia {
     padding: 4%;
-    border-right: solid black thin;
+   
 }
 
 .contacto-nosotros {
@@ -59,7 +58,9 @@
         height: auto;
         opacity: 80%;
         border-radius: 50%;
-    
+        &:hover{
+            transform:translateY(2%);
+        }
     }
 }
 
@@ -70,4 +71,13 @@
 .parrafo {
     padding: 1%;
 }
+
+a{
+    color: white;
+    font-weight: 400;
+    &:hover{
+        color: black;
+    }
+}
+
 /* FIN HTML NOSOTROS */
