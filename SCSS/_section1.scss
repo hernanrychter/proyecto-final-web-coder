@@ -1,6 +1,11 @@
 @import "variables";
 
 /* INICIO SECTION1 */
+.navbar li:hover{
+    border-bottom: 4px solid $color-magenta-rychter;
+    line-height: 1em;
+  }
+  
 .section1 {
     background-image: url(/Multimedia/fondo.png);
     width: 100%;

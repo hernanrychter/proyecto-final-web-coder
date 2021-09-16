@@ -56,6 +56,11 @@ h1:hover {
 
 /* FIN HEADER */
 /* INICIO SECTION1 */
+.navbar li:hover {
+  border-bottom: 4px solid #a01f79;
+  line-height: 1em;
+}
+
 .section1 {
   background-image: url(/Multimedia/fondo.png);
   width: 100%;
