@@ -150,11 +150,19 @@ h2 {
   list-style-type: none;
   color: white;
   font-weight: 600;
+  background-color: black;
 }
 .carrusel h5 {
   list-style-type: none;
   color: white;
   font-weight: 600;
+  background-color: #a01f79;
+}
+
+.carousel-caption {
+  left: 0%;
+  width: 100%;
+  bottom: 0.5rem;
 }
 
 /*FONDOS CARROUSEL HTML*/
@@ -175,7 +183,7 @@ h2 {
   background-color: rgba(0, 0, 0, 0.658);
   background-image: url(/Multimedia/data_image_svg+xml;….svg);
   opacity: 0.6;
-  width: 100%;
+  width: 40%;
   height: 200px;
   float: right;
   border-top-left-radius: 1.2em;
@@ -527,18 +535,8 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 70%;
+    width: 80%;
     height: auto;
-  }
-  .carrusel img {
-    border-radius: 5%;
-    margin-bottom: 10%;
-  }
-  .carrusel li,
-.carrusel h5 {
-    list-style-type: none;
-    color: white;
-    font-weight: 600;
   }
 
   .grid-container {
@@ -548,7 +546,7 @@ h3 {
   }
 
   .grid-item1 li {
-    padding: 1%;
+    display: none;
   }
 
   .grid-item2 li {
@@ -831,11 +829,16 @@ li {
   }
 
   /* Whatsapp Sticky */
+  .sticked {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 3;
+  }
   .sticked img {
-    width: 50px;
+    width: 60px;
     height: auto;
-    margin-left: 3%;
-    opacity: 80%;
+    opacity: 90%;
   }
 
   /*INICIO SECCION SERVICIO INDEX*/
@@ -845,40 +848,18 @@ li {
     grid-template-rows: 1fr 1fr 1fr;
     width: 90%;
     padding: 5%;
-    column-gap: 5%;
+    row-gap: 5%;
     height: 500px;
   }
 
-  .container-servicios-index .servicio-1-index {
+  .container-servicios-index .servicio-1-index, .servicio-2-index, .servicio-3-index {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
   }
 
-  .container-servicios-index .servicio-2-index {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  .container-servicios-index .servicio-3-index {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  .container-servicios-index .servicio-1-index img {
-    padding: 5%;
-  }
-
-  .container-servicios-index .servicio-2-index img {
-    padding: 5%;
-  }
-
-  .container-servicios-index .servicio-3-index img {
+  .container-servicios-index .servicio-1-index img, .servicio-2-index img, .servicio-3-index img {
     padding: 5%;
   }
 
