@@ -1,7 +1,7 @@
 @import "variables";
 
 /* INICIO SECTION1 */
-.navbar li:hover{
+.navbar a:hover{
     border-bottom: 4px solid $color-magenta-rychter;
     line-height: 1em;
   }
