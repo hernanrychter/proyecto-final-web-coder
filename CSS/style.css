@@ -62,7 +62,7 @@ h1:hover {
 }
 
 .section1 {
-  background-image: url(/Multimedia/fondo.png);
+  background-image: url(../Multimedia/fondo.png);
   width: 100%;
   background-size: cover;
   height: auto;
