@@ -124,11 +124,7 @@
     padding: 3%;
   }
 
-  .section1-ventas {
-    background: linear-gradient(to right, $color-magenta-rychter, white);
-    height: auto;
-    padding: 3%;
-  }
+  /*MENU BUSQUEDA */
 
   .elementos-section1 {
     h2 {
@@ -137,34 +133,16 @@
       color: black;
       padding: 0% 10%;
     }
-
-    .palabra-destacada {
-      text-decoration: underline 10%;
-      color: white;
-      opacity: 90%;
-    }
   }
 
-  .prop-ventas {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 100%;
-    padding: 10%;
-    background: linear-gradient(to bottom, rgb(80, 78, 79), white);
+  .prop{
+    display: flex;
+    justify-content: center;
   }
-
-  .detalle {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
-    margin-top: 0%;
-    padding: 5%;
-    background: linear-gradient(to top, $color-magenta-rychter, white);
-  }
-
   .prop img {
+    
     border-radius: 10%;
-    padding: 4%;
+    padding: 2%;
   }
 
   .foto-detalle img {
@@ -199,19 +177,18 @@
 
   .buscador {
     display: grid;
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 50% 50%;
     margin-bottom: 10%;
     padding: 3%;
-
+    .celda-titulo, .desplegable{
+      border-radius: 1em;
+    }
   }
 
-  .palabra-destacada {
-    text-decoration: underline 10%;
-    color: white;
-    opacity: 90%;
-  }
+  
 
   .section2-ventas {
     display: flex;
@@ -229,7 +206,8 @@
 
   .prop-ventas {
     h3 {
-    padding: 1% 4%;
+      margin-top: 3%;
+    padding: 2% 4%;
   }
   p{
     padding: 2% 4%;
@@ -240,14 +218,14 @@
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
-    margin-top: 0%;
-    padding: 5%;
-    background: linear-gradient(to top, $color-magenta-rychter, white);
+    width: 100%;
+    height: auto;
+    background:none;
   }
 
   .prop img {
     border-radius: 10%;
-    width: 100%;
+    width: 80%;
   }
 
   .foto-detalle img {

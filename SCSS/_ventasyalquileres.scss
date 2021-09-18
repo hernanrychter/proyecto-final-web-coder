@@ -27,28 +27,62 @@
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 100%;
-    padding:5%;
-    background: linear-gradient(to bottom, rgb(80, 78, 79), white);  
-}
+    padding:2% 8%
+   
+    }
 
 .detalle{
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
-    margin-top: 0%;
-    padding:5%;
-    background: linear-gradient(to top,$color-magenta-rychter, white);   
+    gap: 5%;
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    padding: 5%;
 }
 
 .prop img{
-    border-radius: 10%;
-}
+    border-radius: 1em;
+     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.534);
+    }
 
 .foto-detalle img{
-   width: 90%;
+   width: 100%;
    height: auto;
-   padding: 3%;
-   border-radius:10% ;
+   padding: 0%;
+   border-radius:1em ;
+   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.534);
 }
 
+/*FONDOS HTML VENTAS Y ALQUILER*/
+.fondito-ventas{
+    position: absolute;
+    top: 1000px;
+    background-color: $color-magenta-rychter;
+    // background-image: url(/Multimedia/data_image_svg+xml;….svg);
+    opacity: 0.6;
+    width: 90%;
+    height: 300px;
+    border-top-right-radius: 1.2em;
+    border-bottom-right-radius: 1.2em;
+    margin-top: 3%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.534);
+    z-index: -1;
+}
+
+.fondito2-ventas{
+    position: absolute;
+    top: 1380px;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.658);
+    background-image: url(../Multimedia/data_image_svg+xml;….svg);
+    opacity: 0.6;
+    width: 70%;
+    height: 300px;
+    border-top-left-radius: 1.2em;
+    border-bottom-left-radius: 1.2em;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.534);
+    z-index: -10;
+}
 /* FIN HTML VENTAS Y ALQUILER */

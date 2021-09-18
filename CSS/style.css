@@ -168,6 +168,7 @@ h2 {
 /*FONDOS CARROUSEL HTML*/
 .fondito {
   position: absolute;
+  top: 1020px;
   background-color: #a01f79;
   opacity: 0.6;
   width: 70%;
@@ -180,18 +181,17 @@ h2 {
 
 .fondito2 {
   position: absolute;
+  top: 1030px;
+  right: 0px;
   background-color: rgba(0, 0, 0, 0.658);
   background-image: url(../Multimedia/data_image_svg+xml;….svg);
   opacity: 0.6;
-  width: 40%;
+  width: 70%;
   height: 200px;
-  float: right;
   border-top-left-radius: 1.2em;
   border-bottom-left-radius: 1.2em;
   margin-top: 20%;
-  margin-left: 60%;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.534);
-  z-index: -1;
 }
 
 #carouselDark {
@@ -379,28 +379,61 @@ a:hover {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 100%;
-  padding: 5%;
-  background: linear-gradient(to bottom, #504e4f, white);
+  padding: 2% 8%;
 }
 
 .detalle {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
-  margin-top: 0%;
+  gap: 5%;
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
   padding: 5%;
-  background: linear-gradient(to top, #a01f79, white);
 }
 
 .prop img {
-  border-radius: 10%;
+  border-radius: 1em;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.534);
 }
 
 .foto-detalle img {
-  width: 90%;
+  width: 100%;
   height: auto;
-  padding: 3%;
-  border-radius: 10%;
+  padding: 0%;
+  border-radius: 1em;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.534);
+}
+
+/*FONDOS HTML VENTAS Y ALQUILER*/
+.fondito-ventas {
+  position: absolute;
+  top: 1000px;
+  background-color: #a01f79;
+  opacity: 0.6;
+  width: 90%;
+  height: 300px;
+  border-top-right-radius: 1.2em;
+  border-bottom-right-radius: 1.2em;
+  margin-top: 3%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.534);
+  z-index: -1;
+}
+
+.fondito2-ventas {
+  position: absolute;
+  top: 1380px;
+  right: 0px;
+  background-color: rgba(0, 0, 0, 0.658);
+  background-image: url(../Multimedia/data_image_svg+xml;….svg);
+  opacity: 0.6;
+  width: 70%;
+  height: 300px;
+  border-top-left-radius: 1.2em;
+  border-bottom-left-radius: 1.2em;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.534);
+  z-index: -10;
 }
 
 /* FIN HTML VENTAS Y ALQUILER */
@@ -630,44 +663,22 @@ h3 {
     padding: 3%;
   }
 
-  .section1-ventas {
-    background: linear-gradient(to right, #a01f79, white);
-    height: auto;
-    padding: 3%;
-  }
-
+  /*MENU BUSQUEDA */
   .elementos-section1 h2 {
     display: none;
     font-size: 2px;
     color: black;
     padding: 0% 10%;
   }
-  .elementos-section1 .palabra-destacada {
-    text-decoration: underline 10%;
-    color: white;
-    opacity: 90%;
-  }
 
-  .prop-ventas {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 100%;
-    padding: 10%;
-    background: linear-gradient(to bottom, #504e4f, white);
-  }
-
-  .detalle {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
-    margin-top: 0%;
-    padding: 5%;
-    background: linear-gradient(to top, #a01f79, white);
+  .prop {
+    display: flex;
+    justify-content: center;
   }
 
   .prop img {
     border-radius: 10%;
-    padding: 4%;
+    padding: 2%;
   }
 
   .foto-detalle img {
@@ -698,17 +709,15 @@ h3 {
 
   .buscador {
     display: grid;
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 50% 50%;
     margin-bottom: 10%;
     padding: 3%;
   }
-
-  .palabra-destacada {
-    text-decoration: underline 10%;
-    color: white;
-    opacity: 90%;
+  .buscador .celda-titulo, .buscador .desplegable {
+    border-radius: 1em;
   }
 
   .section2-ventas {
@@ -726,7 +735,8 @@ h3 {
   }
 
   .prop-ventas h3 {
-    padding: 1% 4%;
+    margin-top: 3%;
+    padding: 2% 4%;
   }
   .prop-ventas p {
     padding: 2% 4%;
@@ -736,14 +746,14 @@ h3 {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
-    margin-top: 0%;
-    padding: 5%;
-    background: linear-gradient(to top, #a01f79, white);
+    width: 100%;
+    height: auto;
+    background: none;
   }
 
   .prop img {
     border-radius: 10%;
-    width: 100%;
+    width: 80%;
   }
 
   .foto-detalle img {
