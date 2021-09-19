@@ -400,25 +400,21 @@ a:hover {
 /* FIN HTML NOSOTROS */
 /* INICIO HTML VENTAS Y ALQUILER  */
 .section1-ventas {
-  background: linear-gradient(to right, #a01f79, white);
   height: auto;
   padding: 3%;
 }
 
 .elementos-section1 h2 {
-  font-size: 50px;
-  color: black;
+  color: white;
+  font-size: 100px;
   padding: 0% 10%;
+  background-color: #a01f79;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.534);
+  border-radius: 1em;
 }
 .elementos-section1 img {
   width: 500px;
   height: auto;
-}
-
-.palabra-destacada {
-  text-decoration: underline 10%;
-  color: white;
-  opacity: 90%;
 }
 
 .prop-ventas {
@@ -426,13 +422,15 @@ a:hover {
   grid-template-columns: 50% 50%;
   grid-template-rows: 100%;
   padding: 2% 8%;
+  width: 100%;
+  height: 800px;
 }
 
 .detalle {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
-  gap: 5%;
+  gap: 8%;
   width: 500px;
   height: auto;
   margin: 0 auto;
@@ -448,6 +446,7 @@ a:hover {
   width: 100%;
   height: auto;
   padding: 0%;
+  border: solid thin;
   border-radius: 1em;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.534);
 }
@@ -455,11 +454,11 @@ a:hover {
 /*FONDOS HTML VENTAS Y ALQUILER*/
 .fondito-ventas {
   position: absolute;
-  top: 1000px;
+  top: 790px;
   background-color: #a01f79;
   opacity: 0.6;
-  width: 90%;
-  height: 300px;
+  width: 95%;
+  height: 280px;
   border-top-right-radius: 1.2em;
   border-bottom-right-radius: 1.2em;
   margin-top: 3%;
@@ -469,13 +468,13 @@ a:hover {
 
 .fondito2-ventas {
   position: absolute;
-  top: 1380px;
+  top: 1280px;
   right: 0px;
   background-color: rgba(0, 0, 0, 0.658);
   background-image: url(../Multimedia/data_image_svg+xml;….svg);
   opacity: 0.6;
-  width: 70%;
-  height: 300px;
+  width: 95%;
+  height: 280px;
   border-top-left-radius: 1.2em;
   border-bottom-left-radius: 1.2em;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.534);
@@ -489,6 +488,9 @@ a:hover {
   color: black;
   padding: 0% 10%;
   margin: 3% 0%;
+  background-color: #a01f79;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.534);
+  border-radius: 1em;
 }
 
 .container-servicios {
@@ -509,11 +511,15 @@ a:hover {
   justify-content: space-around;
   align-items: center;
   border: solid thin black;
+  border-radius: 1em;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.534);
 }
 .container-servicios .servicio-1:hover {
   transform: translateY(-15px);
   box-shadow: 1px 5px 5px black;
+}
+.container-servicios .servicio-1:hover h3 {
+  color: #a01f79;
 }
 .container-servicios .servicio-2 {
   background-color: rgba(255, 255, 255, 0.993);
@@ -522,11 +528,15 @@ a:hover {
   justify-content: space-around;
   align-items: center;
   border: solid thin black;
+  border-radius: 1em;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.534);
 }
 .container-servicios .servicio-2:hover {
   transform: translateY(-15px);
   box-shadow: 1px 5px 5px black;
+}
+.container-servicios .servicio-2:hover h3 {
+  color: #a01f79;
 }
 .container-servicios .servicio-3 {
   background-color: rgba(255, 255, 255, 0.993);
@@ -535,11 +545,15 @@ a:hover {
   justify-content: space-around;
   align-items: center;
   border: solid thin black;
+  border-radius: 1em;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.534);
 }
 .container-servicios .servicio-3:hover {
   transform: translateY(-15px);
   box-shadow: 1px 5px 5px black;
+}
+.container-servicios .servicio-3:hover h3 {
+  color: #a01f79;
 }
 
 .fondo-titulo {
@@ -578,6 +592,21 @@ h3 {
   padding: 2%;
 }
 
+/*FONDOS HTML VENTAS Y ALQUILER*/
+.fondito-servicios {
+  position: absolute;
+  top: 700px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.658);
+  background-image: url(/Multimedia/data_image_svg+xml;….svg);
+  opacity: 0.6;
+  width: 100%;
+  height: 250px;
+  border-radius: 1.2em;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.534);
+  z-index: -1;
+}
+
 /* FIN HTML SERVICIOS */
 /* INICIO CONTACTO */
 .contacto {
@@ -593,8 +622,7 @@ h3 {
   border-color: black;
 }
 .contacto .btn:hover {
-  background-color: white;
-  color: black;
+  background-color: #a01f79;
 }
 
 /* FIN CONTACTO */

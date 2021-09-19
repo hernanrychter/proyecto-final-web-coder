@@ -1,3 +1,5 @@
+@import "variables";
+
 /* INICIO CONTACTO */
 .contacto{
    display: flex;
@@ -10,8 +12,7 @@
        background-color: black;
        border-color: black;
        &:hover{
-           background-color: white;
-           color:black;
+           background-color: $color-magenta-rychter;
         }
    }
 }
