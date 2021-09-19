@@ -48,10 +48,7 @@ header a:hover {
 
 h1 {
   font-size: 1.3rem;
-  opacity: 90%;
-}
-h1:hover {
-  opacity: 100%;
+  color: #a01f79;
 }
 
 /* FIN HEADER */
