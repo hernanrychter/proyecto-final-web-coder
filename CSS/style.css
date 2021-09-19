@@ -624,7 +624,7 @@ h3 {
 
 /* FIN CONTACTO */
 /* INICIO MEDIA QUERY */
-@media only screen and (max-width: 1500px) and (min-width: 300px) {
+@media only screen and (max-width: 1000px) and (min-width: 300px) {
   /*HEADER*/
   header {
     display: flex;
