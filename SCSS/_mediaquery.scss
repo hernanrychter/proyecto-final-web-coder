@@ -1,23 +1,25 @@
 @import "variables";
 
 /* INICIO MEDIA QUERY */
-@media only screen and (max-width: 1000px) and (min-width:300px) {
+@media only screen and (max-width: 1500px) and (min-width:300px) {
+  /*HEADER*/
   header {
     display: flex;
     flex-direction: column;
     text-align: center;
   }
 
+  /*SECTION1*/
   .section1 {
     background: white;
+    padding-bottom: 3%;
 
     .elementos-section1 .logo img {
       width: 90%;
       height: auto;
-      
-
     }
   }
+  
 
   .carrusel {
     display: flex;
@@ -25,7 +27,12 @@
     justify-content: center;
     width: 80%;
     height: auto;
+    margin-bottom: 10px;
   }
+  /*FONDOS especiales*/
+.fondito, .fondito2, .fondito-nosotros, .fondito2-nosotros, .fondito3-nosotros{
+  display:none;
+}
 
   .grid-container {
     display: flex;
@@ -57,6 +64,42 @@
     }
   }
 
+   /*INICIO SECCION SERVICIO INDEX*/
+   .container-servicios-index{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+    row-gap: 5%;
+    height: auto;  
+    margin-bottom: 100px;
+}
+.container-servicios-index .servicio-1-index,.servicio-2-index,.servicio-3-index {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.534);
+} 
+
+.container-servicios-index .servicio-1-index img,.servicio-2-index img,.servicio-3-index img{ 
+    padding: 5%;
+}
+
+
+.fondo-titulo-index{
+    background-color: black;
+    color: white;
+    height: 100%;
+    width: 100%;  
+    text-align: center;  
+}
+
+  /*FIN SECCION SERVICIO INDEX*/
+
+  /*NOSOTROS*/
   .container-nosotros {
     display: flex;
     flex-wrap: wrap;
@@ -65,13 +108,13 @@
     font-weight: 600;
     width: 100%;
     padding: 1%;
-    background: linear-gradient(to right, $color-magenta-rychter, white);
 
     h2 {
-      text-align: left;
+      text-align: center;
       font-size: 60px;
-      color: white;
-      padding-left: 1%;
+      color: black;
+      background-color: $color-magenta-rychter;
+      border-radius: 1rem;
 
     }
 
@@ -126,15 +169,6 @@
 
   /*MENU BUSQUEDA */
 
-  .elementos-section1 {
-    h2 {
-      display: none;
-      font-size: 2px;
-      color: black;
-      padding: 0% 10%;
-    }
-  }
-
   .prop{
     display: flex;
     justify-content: center;
@@ -155,10 +189,10 @@
   /* VENTAS Y ALQUILERES */
 
   .section1-ventas {
-    background: linear-gradient(to right, $color-magenta-rychter, white);
     width: 100%;
     height: auto;
     padding: 1%;
+    margin-bottom:100px;
   }
 
   .elementos-section1 {
@@ -182,9 +216,15 @@
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 50% 50%;
     margin-bottom: 10%;
-    padding: 3%;
+    padding: 1%;
+    gap: 1%;
+    justify-content: center;
+    justify-items: stretch;
+
     .celda-titulo, .desplegable{
       border-radius: 1em;
+      font-size: 1em;
+      height: auto;
     }
   }
 
@@ -201,7 +241,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 1%;
-    background: linear-gradient(to bottom, rgb(80, 78, 79), white);
+    margin-top: 200px;
   }
 
   .prop-ventas {
@@ -221,6 +261,7 @@
     width: 100%;
     height: auto;
     background:none;
+    margin-bottom: 250px;
   }
 
   .prop img {
@@ -234,15 +275,17 @@
     padding: 3%;
     border-radius: 10%;
   }
-
+  .fondito-ventas,.fondito2-ventas{
+    display: none;
+  }
   /* SERVICIOS */
  .sector-servicios{
    padding-right: 10%;
  }
   .section1-ventas h2 {
-    font-size: 50px;
-    color: black;
-    padding: 0% 10%;
+    font-size: 25px;
+    color: white;
+    padding: 2% 10%;
   }
 
   .container-servicios {
@@ -312,11 +355,19 @@
   h3 {
     padding: 2%;
   }
+  .fondito-servicios{
+    display:none;
+  }
+
+  /*CONTACTO*/
+  .contacto{
+    margin-top: 50px;
+  }
 
   /* Whatsapp Sticky */
   .sticked {
     position: fixed;
-    right: 30px;
+    right: 20px;
     bottom: 30px;
     z-index: 3;
 
@@ -327,37 +378,7 @@
     }
 }
 
-  /*INICIO SECCION SERVICIO INDEX*/
-  .container-servicios-index {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    width: 90%;
-    padding: 5%;
-    row-gap: 5%;
-    height: 500px;
-  }
-
-  .container-servicios-index .servicio-1-index,.servicio-2-index,.servicio-3-index {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  .container-servicios-index .servicio-1-index img,.servicio-2-index img,.servicio-3-index img {
-    padding: 5%;
-  }
-
-  .fondo-titulo-index {
-    background-color: black;
-    color: white;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-  }
-
-  /*FIN SECCION SERVICIO INDEX*/
+ 
 }
 
 /*FIN MEDIA QUERY*/
