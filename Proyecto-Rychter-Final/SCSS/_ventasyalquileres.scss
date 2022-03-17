@@ -1,0 +1,89 @@
+@import "variables";
+/* INICIO HTML VENTAS Y ALQUILER  */
+.section1-ventas{
+    height: auto;
+    padding: 3%;
+}
+
+.elementos-section1{
+    h2{
+        color: white;
+    font-size: 100px;
+    padding: 0% 10%;
+    background-color: $color-magenta-rychter;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.534);
+    border-radius: 1em;
+    }
+    img{
+        width:500px;
+        height: auto;
+       
+    }
+}
+
+.prop-ventas {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    padding:2% 8%;
+    width: 100%;
+    height: 800px;
+   
+    }
+
+.detalle{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    gap: 8%;
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    padding: 5%;
+}
+
+.prop img{
+    border-radius: 1em;
+     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.534);
+    }
+
+.foto-detalle img{
+   width: 100%;
+   height: auto;
+   padding: 0%;
+   border: solid thin;
+   border-radius:1em ;
+   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.534);
+}
+
+/*FONDOS HTML VENTAS Y ALQUILER*/
+.fondito-ventas{
+    position: absolute;
+    top: 790px;
+    background-color: $color-magenta-rychter;
+    // background-image: url(/Multimedia/data_image_svg+xml;….svg);
+    opacity: 0.6;
+    width: 95%;
+    height: 280px;
+    border-top-right-radius: 1.2em;
+    border-bottom-right-radius: 1.2em;
+    margin-top: 3%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.534);
+    z-index: -1;
+}
+
+.fondito2-ventas{
+    position: absolute;
+    top: 1280px;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.658);
+    background-image: url(../Multimedia/data_image_svg+xml;….svg);
+    opacity: 0.6;
+    width: 95%;
+    height: 280px;
+    border-top-left-radius: 1.2em;
+    border-bottom-left-radius: 1.2em;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.534);
+    z-index: -10;
+}
+/* FIN HTML VENTAS Y ALQUILER */

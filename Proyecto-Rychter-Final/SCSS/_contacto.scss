@@ -1,0 +1,19 @@
+@import "variables";
+
+/* INICIO CONTACTO */
+.contacto{
+   display: flex;
+   justify-content: center;
+   margin: 3% 10% 3%;
+   .form-label{
+       font-weight: 600;
+   }
+   .btn{
+       background-color: black;
+       border-color: black;
+       &:hover{
+           background-color: $color-magenta-rychter;
+        }
+   }
+}
+/* FIN CONTACTO */

@@ -1,0 +1,32 @@
+@import "variables";
+
+/* INCIO HEADER */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    box-shadow: 0 0 10px 0 gray;
+    margin-bottom: 2%;
+    
+    a {
+        color: white;
+        opacity: 90%;
+        
+        &:hover {
+            color: white;
+            opacity: 100%;
+       }
+    }
+}
+
+h1 {
+    font-size: 1.3rem;
+    color:$color-magenta-rychter;
+    
+}
+
+/* FIN HEADER */

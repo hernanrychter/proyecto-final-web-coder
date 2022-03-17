@@ -1,0 +1,75 @@
+/* INICIO SECTION2 DE TODOS LOS HTML */
+h2 {
+    text-align: center;
+    padding: 3%;
+}
+
+/* EDICION CARROUSEL DEL INDEX */
+.carrusel{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: auto;
+    img{
+        border-radius: 0%;
+    }
+    li{
+        list-style-type: none;
+        color: white;
+        font-weight: 600;
+        background-color: black;
+    }
+    h5{
+        list-style-type: none;
+        color: white;
+        font-weight: 600; 
+        background-color: $color-magenta-rychter;
+    }
+}
+.carousel-caption{
+    left: 0%;
+    width: 100%;
+    bottom:0.5rem;
+
+}
+
+/*FONDOS CARROUSEL HTML*/
+.fondito{
+    position: absolute;
+    top: 1020px;
+    background-color: $color-magenta-rychter;
+    // background-image: url(/Multimedia/data_image_svg+xml;….svg);
+    opacity: 0.6;
+    width: 70%;
+    height: 200px;
+    border-top-right-radius: 1.2em;
+    border-bottom-right-radius: 1.2em;
+    margin-top: 3%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.534);
+}
+
+.fondito2{
+    position: absolute;
+    top: 1030px;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.658);
+    background-image: url(../Multimedia/data_image_svg+xml;….svg);
+    opacity: 0.6;
+    width: 70%;
+    height: 200px;
+    border-top-left-radius: 1.2em;
+    border-bottom-left-radius: 1.2em;
+    margin-top: 20%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.534);
+    
+}
+
+#carouselDark{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.534);
+   
+}
+
+
+
+
+/* FIN SECTION2 */
